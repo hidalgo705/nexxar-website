@@ -226,6 +226,27 @@ input, select, textarea, button { font: inherit; }
 .btn-inline { margin-top: var(--space-8); }
 .btn-full { width: 100%; justify-content: center; }
 
+/* === CONSTRUCTION BANNER === */
+.construction-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  background: #b45309;
+  color: #fef3c7;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0.6em var(--space-5);
+  text-align: center;
+  position: relative;
+  z-index: 200;
+}
+.construction-banner svg {
+  flex-shrink: 0;
+  opacity: 0.85;
+}
+
 /* === HEADER === */
 .site-header {
   position: sticky;
